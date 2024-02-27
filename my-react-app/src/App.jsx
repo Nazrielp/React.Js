@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./components/Elements/Button";
 
 // class Button extends React.Component {
 //   render() {
@@ -27,7 +28,7 @@ const Button = (props) => {
     </button>
 
   );
-}
+};
 
 function App() {
   return (
@@ -42,4 +43,4 @@ function App() {
 }
 
 
-export default App
+export default App;
