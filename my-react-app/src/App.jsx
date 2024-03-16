@@ -45,7 +45,7 @@ function App() {
               Email
             </label>
             <input type="text" className="text-sm border rounded w-full py-2 px-3 text-slate-700 placeholder: opacity-50" 
-            placeholder="zrielll@gmail.com"/>
+            placeholder="zriell@gmail.com"/>
           </div>
 
           <div className="mb-6">
