@@ -53,7 +53,7 @@ function App() {
               Password
             </label>
             <input type="password" className="text-sm border rounded w-full py-2 px-3 text-slate-700 placeholder: opacity-50" 
-            placeholder="*****"/>
+            placeholder="*******"/>
           </div>
 
           <Button classname="bg-blue-600 w-full">Login</Button>
