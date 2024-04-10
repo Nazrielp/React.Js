@@ -1,6 +1,3 @@
-
-
-
 const Label = (props) => {
     const { Children, htmlFor } = props
     return (
