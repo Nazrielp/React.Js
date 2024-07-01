@@ -41,18 +41,8 @@ function App() {
         <p className="font-medium text-slate-500 mb-8">Welcome, please enter your details broo</p>
 
         <from action="">
-          <div className="mb-6">
-          </div>
-
-          <InputForm label="email" type="text" placeholder="zriell@gmail.com" name="email"></InputForm>
-
-          <div className="mb-6">
-            <label htmlFor="password" className="block text-slate-700 text-sm font-bold mb-2">
-              Password
-            </label>
-            <input type="password" className="text-sm border rounded w-full py-2 px-3 text-slate-700 placeholder: opacity-50"
-              placeholder="*******" />
-          </div>
+        <InputForm label="Email" type="text" placeholder="zriell@gmail.com" name="email"/>
+        <InputForm label="Password" type="password" placeholder="********" name="password"/>
 
           <Button classname="bg-blue-600 w-full">Login</Button>
         </from>

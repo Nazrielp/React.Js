@@ -6,11 +6,10 @@ const InputForm = (props) => {
         return (
             <div className="mb-6">
                 <Label htmlFor={name}>{label}</Label>
-                <Input type={type} name={name} placeholder={placeholder}></Input>
+                <Input name={name} type={type} placeholder={placeholder}></Input>
           </div>
 
         );
-
     };
 
 export default InputForm;
