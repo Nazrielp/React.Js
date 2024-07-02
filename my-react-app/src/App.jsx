@@ -13,12 +13,8 @@ function App() {
 
         <InputForm label="Email" type="email" placeholder="zrielp@gmail.com" name="email"></InputForm>
 
-          <div className="mb-6">
-            <label htmlFor="password" className="block text-slate-700 text-sm font-bold mb-2">Password</label>
+        <InputForm label="Password" type="password" placeholder="********" name="password"></InputForm>
 
-            <input type="password" className="text-sm border rounded w-full py-2 px-3 text-slate-700 placeholder: opacity-50"
-              placeholder="*******" />
-          </div>
           <Button classname="bg-blue-600 w-full">Login</Button>
         </form>
       </div>
