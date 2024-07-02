@@ -8,7 +8,6 @@ const InputForm = (props) => {
                 <Label htmlFor={name}>{label}</Label>
                 <Input name={name} type={type} placeholder={placeholder}></Input>
           </div>
-
         );
     };
 

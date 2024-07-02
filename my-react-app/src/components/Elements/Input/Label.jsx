@@ -1,5 +1,5 @@
 const Label = (props) => {
-    const { htmlFor, Children} = props
+    const { htmlFor, Children } = props;
     return (
         <label
             htmlFor={htmlFor}
