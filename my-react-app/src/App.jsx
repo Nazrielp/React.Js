@@ -1,8 +1,6 @@
-import React from "react";
-import LoginPage from "./Pages/LoginPage";
-import RegisterPage from "./Pages/RegisterPage";
-
- 
+import React from 'react';
+import LoginPage from './Pages/LoginPage';
+import RegisterPage from './Pages/RegisterPage';
 
 function App() {
   return (
@@ -11,7 +9,6 @@ function App() {
       <RegisterPage></RegisterPage>
     </div>
   );
-};
-
+}
 
 export default App;
