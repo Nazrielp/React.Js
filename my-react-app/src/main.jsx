@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App.jsx';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import LoginPage from './Pages/LoginPage.jsx';
 import RegisterPage from './Pages/RegisterPage.jsx';
+import ErrorPage from './Pages/404.jsx';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <div>Hello Word!</div>
+    element: <div>Hello Word!</div>,
+    errorElement: <ErrorPage />,
   },
   {
     path: '/login',
