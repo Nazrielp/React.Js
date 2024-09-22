@@ -10,7 +10,7 @@ const ErrorPage = () => {
             <p className="my-5 text-xl">{error.statusText || error.message}</p>
         </div>
     );
-    
+
 };
 
 export default ErrorPage;
