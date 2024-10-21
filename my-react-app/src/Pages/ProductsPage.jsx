@@ -38,7 +38,7 @@ const ProductsPage = () => {
     return (
         <Fragment>
             <div className="flex justify-end h-20 bg-gray-800 text-green-500 items-center px-10">{email}
-                <Button className="ml-5" onClick={handleLogout}>Logout</Button>
+                <Button className="ml-5 bg-green-500" onClick={handleLogout}>Logout</Button>
             </div>
             <div className="flex justify-center py-5">
                 {product.map((product) => (
